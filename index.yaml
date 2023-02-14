@@ -2,12 +2,33 @@ apiVersion: v1
 entries:
   cluster-openstack:
   - annotations:
+      application.giantswarm.io/metadata: https://thg-ice.github.io/ice-cluster-catalog/cluster-openstack-0.17.2.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://thg-ice.github.io/ice-cluster-catalog/cluster-openstack-0.17.2.tgz-meta/README.md
+      application.giantswarm.io/team: rocket
+      application.giantswarm.io/values-schema: https://thg-ice.github.io/ice-cluster-catalog/cluster-openstack-0.17.2.tgz-meta/values.schema.json
+    apiVersion: v2
+    created: "2023-02-14T11:52:34.200211945Z"
+    dependencies:
+    - name: cluster-shared
+      repository: https://giantswarm.github.io/cluster-catalog
+      version: 0.6.3
+    description: A helm chart for creating Cluster API clusters with the OpenStack
+      infrastructure provider (CAPO).
+    digest: 883d1730bbbca6a3eb8edd9523d839876a23b05e9d66d11a3b2b65bd99e7842c
+    home: https://github.com/giantswarm/cluster-openstack
+    icon: https://s.giantswarm.io/app-icons/openstack/1/light.svg
+    name: cluster-openstack
+    type: application
+    urls:
+    - https://thg-ice.github.io/ice-cluster-catalog/cluster-openstack-0.17.2.tgz
+    version: 0.17.2
+  - annotations:
       application.giantswarm.io/metadata: https://thg-ice.github.io/ice-cluster-catalog/cluster-openstack-0.17.1.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://thg-ice.github.io/ice-cluster-catalog/cluster-openstack-0.17.1.tgz-meta/README.md
       application.giantswarm.io/team: rocket
       application.giantswarm.io/values-schema: https://thg-ice.github.io/ice-cluster-catalog/cluster-openstack-0.17.1.tgz-meta/values.schema.json
     apiVersion: v2
-    created: "2023-02-13T17:32:45.304584822Z"
+    created: "2023-02-14T11:52:34.198961441Z"
     dependencies:
     - name: cluster-shared
       repository: https://giantswarm.github.io/cluster-catalog
@@ -22,4 +43,4 @@ entries:
     urls:
     - https://thg-ice.github.io/ice-cluster-catalog/cluster-openstack-0.17.1.tgz
     version: 0.17.1
-generated: "2023-02-13T17:32:45.302981435Z"
+generated: "2023-02-14T11:52:34.191229712Z"
