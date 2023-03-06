@@ -1,9 +1,0 @@
-annotations:
-  application.giantswarm.io/metadata: https://thg-ice.github.io/ice-cluster-catalog/cloud-provider-openstack-app-0.7.1.tgz-meta/main.yaml
-  application.giantswarm.io/readme: https://thg-ice.github.io/ice-cluster-catalog/cloud-provider-openstack-app-0.7.1.tgz-meta/README.md
-chartApiVersion: v2
-chartFile: cloud-provider-openstack-app-0.7.1.tgz
-dateCreated: '2023-03-06T13:39:01.431031'
-digest: cb4534e3b960301e2b25b4101b9ed72f2046d6ee0b5bfc077c743c4b1744e3f0
-home: https://github.com/giantswarm/cloud-provider-openstack-app
-icon: https://s.giantswarm.io/app-icons/openstack/1/light.svg
