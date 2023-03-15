@@ -4,16 +4,17 @@ entries:
   - annotations:
       application.giantswarm.io/metadata: https://thg-ice.github.io/ice-cluster-catalog/cluster-openstack-0.18.1.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://thg-ice.github.io/ice-cluster-catalog/cluster-openstack-0.18.1.tgz-meta/README.md
+      application.giantswarm.io/team: rocket
       application.giantswarm.io/values-schema: https://thg-ice.github.io/ice-cluster-catalog/cluster-openstack-0.18.1.tgz-meta/values.schema.json
     apiVersion: v2
-    created: "2023-03-15T15:47:58.984739112Z"
+    created: "2023-03-15T15:48:46.337961219Z"
     dependencies:
     - name: cluster-shared
       repository: https://giantswarm.github.io/cluster-catalog
-      version: 0.6.3
+      version: 0.6.4
     description: A helm chart for creating Cluster API clusters with the OpenStack
       infrastructure provider (CAPO).
-    digest: c36184cd905a47564d5ae4a9557499067e56af3386de3539865c2a6c1d425542
+    digest: f2d10b282ebcba16b0608c813dc7b338608afc8aa07b0b5b6a587ea709f1a2e3
     home: https://github.com/thg-ice/cluster-openstack
     icon: https://s.giantswarm.io/app-icons/openstack/1/light.svg
     name: cluster-openstack
@@ -27,7 +28,7 @@ entries:
       application.giantswarm.io/team: rocket
       application.giantswarm.io/values-schema: https://thg-ice.github.io/ice-cluster-catalog/cluster-openstack-0.18.0.tgz-meta/values.schema.json
     apiVersion: v2
-    created: "2023-03-15T15:47:58.983132106Z"
+    created: "2023-03-15T15:48:46.336862822Z"
     dependencies:
     - name: cluster-shared
       repository: https://giantswarm.github.io/cluster-catalog
@@ -42,4 +43,4 @@ entries:
     urls:
     - https://thg-ice.github.io/ice-cluster-catalog/cluster-openstack-0.18.0.tgz
     version: 0.18.0
-generated: "2023-03-15T15:47:58.979782792Z"
+generated: "2023-03-15T15:48:46.334889327Z"
