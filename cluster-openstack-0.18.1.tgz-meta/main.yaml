@@ -5,8 +5,8 @@ annotations:
   application.giantswarm.io/values-schema: https://thg-ice.github.io/ice-cluster-catalog/cluster-openstack-0.18.1.tgz-meta/values.schema.json
 chartApiVersion: v2
 chartFile: cluster-openstack-0.18.1.tgz
-dateCreated: '2023-03-15T15:48:44.347643'
-digest: f2d10b282ebcba16b0608c813dc7b338608afc8aa07b0b5b6a587ea709f1a2e3
+dateCreated: '2023-03-15T16:34:04.795878'
+digest: 968eef7ca252ed3f4fc40ddc53478a4ef354e606a9d900ddcb13199ba37498cb
 home: https://github.com/thg-ice/cluster-openstack
 icon: https://s.giantswarm.io/app-icons/openstack/1/light.svg
 restrictions:
