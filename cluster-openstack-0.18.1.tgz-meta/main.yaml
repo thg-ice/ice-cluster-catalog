@@ -1,0 +1,13 @@
+annotations:
+  application.giantswarm.io/metadata: https://thg-ice.github.io/ice-cluster-catalog/cluster-openstack-0.18.1.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://thg-ice.github.io/ice-cluster-catalog/cluster-openstack-0.18.1.tgz-meta/README.md
+  application.giantswarm.io/values-schema: https://thg-ice.github.io/ice-cluster-catalog/cluster-openstack-0.18.1.tgz-meta/values.schema.json
+chartApiVersion: v2
+chartFile: cluster-openstack-0.18.1.tgz
+dateCreated: '2023-03-15T15:35:11.749774'
+digest: 6cd37d1f385c93e2c943bedc4e94253c3d451ed96826323f3ac6df9312522b0e
+home: https://github.com/thg-ice/cluster-openstack
+icon: https://s.giantswarm.io/app-icons/openstack/1/light.svg
+restrictions:
+  compatibleProviders:
+  - openstack

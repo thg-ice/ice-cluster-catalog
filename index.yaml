@@ -2,11 +2,31 @@ apiVersion: v1
 entries:
   cluster-openstack:
   - annotations:
+      application.giantswarm.io/metadata: https://thg-ice.github.io/ice-cluster-catalog/cluster-openstack-0.18.1.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://thg-ice.github.io/ice-cluster-catalog/cluster-openstack-0.18.1.tgz-meta/README.md
+      application.giantswarm.io/values-schema: https://thg-ice.github.io/ice-cluster-catalog/cluster-openstack-0.18.1.tgz-meta/values.schema.json
+    apiVersion: v2
+    created: "2023-03-15T15:35:12.784677505Z"
+    dependencies:
+    - name: cluster-shared
+      repository: https://giantswarm.github.io/cluster-catalog
+      version: 0.6.4
+    description: A helm chart for creating Cluster API clusters with the OpenStack
+      infrastructure provider (CAPO).
+    digest: 6cd37d1f385c93e2c943bedc4e94253c3d451ed96826323f3ac6df9312522b0e
+    home: https://github.com/thg-ice/cluster-openstack
+    icon: https://s.giantswarm.io/app-icons/openstack/1/light.svg
+    name: cluster-openstack
+    type: application
+    urls:
+    - https://thg-ice.github.io/ice-cluster-catalog/cluster-openstack-0.18.1.tgz
+    version: 0.18.1
+  - annotations:
       application.giantswarm.io/metadata: https://thg-ice.github.io/ice-cluster-catalog/cluster-openstack-0.18.0.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://thg-ice.github.io/ice-cluster-catalog/cluster-openstack-0.18.0.tgz-meta/README.md
       application.giantswarm.io/values-schema: https://thg-ice.github.io/ice-cluster-catalog/cluster-openstack-0.18.0.tgz-meta/values.schema.json
     apiVersion: v2
-    created: "2023-03-15T15:20:22.607225036Z"
+    created: "2023-03-15T15:35:12.783544896Z"
     dependencies:
     - name: cluster-shared
       repository: https://giantswarm.github.io/cluster-catalog
@@ -21,4 +41,4 @@ entries:
     urls:
     - https://thg-ice.github.io/ice-cluster-catalog/cluster-openstack-0.18.0.tgz
     version: 0.18.0
-generated: "2023-03-15T15:20:22.600977732Z"
+generated: "2023-03-15T15:35:12.780907775Z"
