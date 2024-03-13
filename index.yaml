@@ -2,12 +2,33 @@ apiVersion: v1
 entries:
   cluster-openstack:
   - annotations:
+      application.giantswarm.io/metadata: https://thg-ice.github.io/ice-cluster-catalog/cluster-openstack-0.18.9.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://thg-ice.github.io/ice-cluster-catalog/cluster-openstack-0.18.9.tgz-meta/README.md
+      application.giantswarm.io/team: rocket
+      application.giantswarm.io/values-schema: https://thg-ice.github.io/ice-cluster-catalog/cluster-openstack-0.18.9.tgz-meta/values.schema.json
+    apiVersion: v2
+    created: "2024-03-13T11:35:54.440108189Z"
+    dependencies:
+    - name: cluster-shared
+      repository: https://giantswarm.github.io/cluster-catalog
+      version: 0.6.4
+    description: A helm chart for creating Cluster API clusters with the OpenStack
+      infrastructure provider (CAPO).
+    digest: eda3f27711ce9c01ba120051692b47e9d45bbdb1ecc7da592e065ff26f8a98f8
+    home: https://github.com/thg-ice/cluster-openstack
+    icon: https://s.giantswarm.io/app-icons/openstack/1/light.svg
+    name: cluster-openstack
+    type: application
+    urls:
+    - https://thg-ice.github.io/ice-cluster-catalog/cluster-openstack-0.18.9.tgz
+    version: 0.18.9
+  - annotations:
       application.giantswarm.io/metadata: https://thg-ice.github.io/ice-cluster-catalog/cluster-openstack-0.18.8.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://thg-ice.github.io/ice-cluster-catalog/cluster-openstack-0.18.8.tgz-meta/README.md
       application.giantswarm.io/team: rocket
       application.giantswarm.io/values-schema: https://thg-ice.github.io/ice-cluster-catalog/cluster-openstack-0.18.8.tgz-meta/values.schema.json
     apiVersion: v2
-    created: "2024-03-12T09:37:56.102480088Z"
+    created: "2024-03-13T11:35:54.43932984Z"
     dependencies:
     - name: cluster-shared
       repository: https://giantswarm.github.io/cluster-catalog
@@ -28,7 +49,7 @@ entries:
       application.giantswarm.io/team: rocket
       application.giantswarm.io/values-schema: https://thg-ice.github.io/ice-cluster-catalog/cluster-openstack-0.18.7.tgz-meta/values.schema.json
     apiVersion: v2
-    created: "2024-03-12T09:37:56.10172306Z"
+    created: "2024-03-13T11:35:54.43855098Z"
     dependencies:
     - name: cluster-shared
       repository: https://giantswarm.github.io/cluster-catalog
@@ -49,7 +70,7 @@ entries:
       application.giantswarm.io/team: rocket
       application.giantswarm.io/values-schema: https://thg-ice.github.io/ice-cluster-catalog/cluster-openstack-0.18.6.tgz-meta/values.schema.json
     apiVersion: v2
-    created: "2024-03-12T09:37:56.100477137Z"
+    created: "2024-03-13T11:35:54.437783541Z"
     dependencies:
     - name: cluster-shared
       repository: https://giantswarm.github.io/cluster-catalog
@@ -70,7 +91,7 @@ entries:
       application.giantswarm.io/team: rocket
       application.giantswarm.io/values-schema: https://thg-ice.github.io/ice-cluster-catalog/cluster-openstack-0.18.5.tgz-meta/values.schema.json
     apiVersion: v2
-    created: "2024-03-12T09:37:56.099323312Z"
+    created: "2024-03-13T11:35:54.437005853Z"
     dependencies:
     - name: cluster-shared
       repository: https://giantswarm.github.io/cluster-catalog
@@ -91,7 +112,7 @@ entries:
       application.giantswarm.io/team: rocket
       application.giantswarm.io/values-schema: https://thg-ice.github.io/ice-cluster-catalog/cluster-openstack-0.18.4.tgz-meta/values.schema.json
     apiVersion: v2
-    created: "2024-03-12T09:37:56.098390318Z"
+    created: "2024-03-13T11:35:54.435611115Z"
     dependencies:
     - name: cluster-shared
       repository: https://giantswarm.github.io/cluster-catalog
@@ -112,7 +133,7 @@ entries:
       application.giantswarm.io/team: rocket
       application.giantswarm.io/values-schema: https://thg-ice.github.io/ice-cluster-catalog/cluster-openstack-0.18.3.tgz-meta/values.schema.json
     apiVersion: v2
-    created: "2024-03-12T09:37:56.097452946Z"
+    created: "2024-03-13T11:35:54.434872661Z"
     dependencies:
     - name: cluster-shared
       repository: https://giantswarm.github.io/cluster-catalog
@@ -133,7 +154,7 @@ entries:
       application.giantswarm.io/team: rocket
       application.giantswarm.io/values-schema: https://thg-ice.github.io/ice-cluster-catalog/cluster-openstack-0.18.2.tgz-meta/values.schema.json
     apiVersion: v2
-    created: "2024-03-12T09:37:56.09663789Z"
+    created: "2024-03-13T11:35:54.433861348Z"
     dependencies:
     - name: cluster-shared
       repository: https://giantswarm.github.io/cluster-catalog
@@ -154,7 +175,7 @@ entries:
       application.giantswarm.io/team: rocket
       application.giantswarm.io/values-schema: https://thg-ice.github.io/ice-cluster-catalog/cluster-openstack-0.18.1.tgz-meta/values.schema.json
     apiVersion: v2
-    created: "2024-03-12T09:37:56.095833114Z"
+    created: "2024-03-13T11:35:54.433030701Z"
     dependencies:
     - name: cluster-shared
       repository: https://giantswarm.github.io/cluster-catalog
@@ -175,7 +196,7 @@ entries:
       application.giantswarm.io/team: rocket
       application.giantswarm.io/values-schema: https://thg-ice.github.io/ice-cluster-catalog/cluster-openstack-0.18.0.tgz-meta/values.schema.json
     apiVersion: v2
-    created: "2024-03-12T09:37:56.095055669Z"
+    created: "2024-03-13T11:35:54.432233868Z"
     dependencies:
     - name: cluster-shared
       repository: https://giantswarm.github.io/cluster-catalog
@@ -190,4 +211,4 @@ entries:
     urls:
     - https://thg-ice.github.io/ice-cluster-catalog/cluster-openstack-0.18.0.tgz
     version: 0.18.0
-generated: "2024-03-12T09:37:56.094115101Z"
+generated: "2024-03-13T11:35:54.431263001Z"
